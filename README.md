@@ -5,5 +5,5 @@
 References
 ============
 
-[1] 《Python Practice of Data Analysis and Mining》
+[1] 《Python数据分析与挖掘实战》
 
