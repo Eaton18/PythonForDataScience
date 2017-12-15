@@ -6,8 +6,8 @@ from sklearn.linear_model import RandomizedLogisticRegression as RLR
 
 # init parameters
 # os.getcwd()
-filename = '../Datasets/bankloan.xls'
-data = pd.read_excel(filename)
+filename = '../Datasets/bankloan.csv'
+data = pd.read_csv(filename)
 x = data.iloc[:,:8].as_matrix()   # regressors
 y = data.iloc[:,8].as_matrix()    # labels
 
