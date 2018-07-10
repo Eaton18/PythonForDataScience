@@ -1,6 +1,20 @@
+
+# python
 *.pyc
 *.swp
+
+# log
 *.log
+
+# pycharm
+.mypy_cache/
+.env/
+.idea/
+.DS_Store/
+.DS_Store
+./**/.DS_Store/
+./**/.DS_Store
+
 settings.py
 dump.rdb
 nohup.out
