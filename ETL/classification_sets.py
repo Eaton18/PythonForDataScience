@@ -92,7 +92,14 @@ print(X)
 
 print("ohe.fit_transform(X):")
 print(ohe.fit_transform(X))
+# [[ 0.   1.   0.   1.  10.1]
+#  [ 0.   0.   1.   2.  13.5]
+#  [ 1.   0.   0.   3.  15.3]]
+
 
 print("pd.get_dummies:")
 print(pd.get_dummies(df[['color', 'size', 'price']]))
-
+#    size  price  color_blue  color_green  color_red
+# 0     1   10.1           0            1          0
+# 1     2   13.5           0            0          1
+# 2     3   15.3           1            0          0
